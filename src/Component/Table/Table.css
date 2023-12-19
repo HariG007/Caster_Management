@@ -1,0 +1,36 @@
+/* Admin.css */
+
+button.create-button {
+    margin: 0 5px; /* Adjust the spacing as needed */
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.terminate-button {
+    margin: 0 5px; /* Adjust the spacing as needed */
+    padding: 8px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .status-active {
+    background-color: #4CAF50; /* Green for Active */
+  }
+  
+  .status-inactive {
+    background-color: #aaa; /* Gray for Inactive */
+  }
+  
