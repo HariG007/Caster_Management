@@ -43,7 +43,7 @@ const Admin = () => {
           <thead>
             <tr>
               {tableHeader.map((header, index) => (
-                <th key={index} className="border-gray-200" style={{padding: '15px', borderBottom: '1px solid #ddd',minWidth:'100px' }}>{header}</th>
+                <th key={index} className="border-gray-200" style={{padding: '15px', borderBottom: '1px solid #ddd',minWidth:'90%' }}>{header}</th>
               ))}
             </tr>
           </thead>

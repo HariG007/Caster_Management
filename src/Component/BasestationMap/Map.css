@@ -2,7 +2,9 @@
 
 .mapviewcontainer
 {
-  padding-top: 130px;
+  width: 90%;
+  height: 100px;
+  padding-top: 30px;
 }
 .mapContainer {
     display: flex;
@@ -21,7 +23,6 @@
   
   /* Map styles */
   .mapDiv {
-    height: 1050px;
     width: 100vb;
     border-radius: 10px;
     border: 2px solid gray; /* Adjust border properties */
@@ -45,7 +46,8 @@
   }
   
   .mapDiv {
-    height: 80vh; /* Adjust the height as needed */
+     /* Adjust the height as needed */
+     height: 500px;
     width: 100%;
   }
   .mapsideDiv{
